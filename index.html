@@ -29,7 +29,7 @@
 <meta property="og:site_name" content="Gift Ojeabulu">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="Gift Ojeabulu — Data Scientist · Developer Advocate · AI Engineer">
-<meta property="og:description" content="I build AI systems, and the communities that use them. Six years across ML, MLOps, and developer advocacy, reaching 80,000+ people across 80+ countries.">
+<meta property="og:description" content="I build AI systems, and the communities that use them. Six years across ML, MLOps, and developer advocacy, reaching 80,000+ people across 120+ countries.">
 <meta property="og:image" content="https://giftojeabulu.com/hero-photo.jpg"> <!-- update if your photo has a different filename/path -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@GiftOjeabulu_">
@@ -489,6 +489,11 @@ header{
 .comm-aside span b{font-weight:600;color:var(--ink)}
 
 /* ============ SPEAKING ============ */
+.sub-label{
+  font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-3);margin:0 0 14px;
+}
+.talks + .sub-label{margin-top:clamp(40px,5vw,56px)}
 .talks{border-top:1px solid var(--line-2)}
 /* Mobile-first: venue, talk title, and role stack vertically at full width. */
 .talk{
@@ -522,11 +527,11 @@ header{
 .press:hover b{color:var(--accent)}
 
 /* ============ IMPACT ============ */
-.imp-stats{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line)}
-.imp-stat{padding:26px 22px 26px 0;border-right:1px solid var(--line)}
-.imp-stat:nth-child(3n){border-right:0}
-.imp-stat:nth-child(3n+2),.imp-stat:nth-child(3n){padding-left:22px}
-.imp-stat:nth-child(-n+3){border-bottom:1px solid var(--line)}
+.imp-stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-2);border-bottom:1px solid var(--line)}
+.imp-stat{padding:26px 20px 26px 0;border-right:1px solid var(--line)}
+.imp-stat:nth-child(4n){border-right:0}
+.imp-stat:not(:nth-child(4n+1)){padding-left:20px}
+.imp-stat:nth-child(-n+4){border-bottom:1px solid var(--line)}
 .imp-stat b{font-family:var(--display);font-weight:500;font-size:clamp(28px,3vw,44px);display:block;letter-spacing:-.015em}
 .imp-stat span{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);display:block;margin-top:8px}
 .imp-stat em{display:block;font-style:normal;font-size:13px;color:var(--ink-3);margin-top:8px;line-height:1.5}
@@ -717,7 +722,7 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
         <p class="typeline" aria-label="Developer Advocate and Technical Growth Marketer, AI Solutions Engineer and Data Scientist, Head of Developer Community, Technical Marketing Engineer">
           <span id="typewriter" aria-hidden="true"></span><span class="caret" aria-hidden="true"></span>
         </p>
-        <p class="hero-sub">Six years across machine learning, MLOps, and developer advocacy: shipping models to production at startups, growing open-source ecosystems at Iterative and DagsHub, and co-founding one of Africa's leading data communities. The work has reached more than 80,000 people across 80+ countries.</p>
+        <p class="hero-sub">Six years across machine learning, MLOps, and developer advocacy: shipping models to production at startups, growing open-source ecosystems at Iterative and DagsHub, and co-founding one of Africa's leading data communities. The work has reached more than 80,000 people across 120+ countries.</p>
         <div class="hero-ctas">
           <a class="btn btn-primary" href="#work">View case studies
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M2 8h11M9 3.5 13.5 8 9 12.5"/></svg>
@@ -757,7 +762,7 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
 
     <blockquote class="pull reveal featured-quote">
       <p>"Gift possesses the rare ability to blend deep technical insight with compelling communication. His strategic thinking, resilience, and consistent global-level impact were vital to Iterative's growth."</p>
-      <cite>Jenifer De Figueiredo, Community &amp; Content Engineering Lead at lakeFS · Formerly DevRel Team Lead, Iterative · Technical Project Manager, Amazon</cite>
+      <cite>Jenifer De Figueiredo, Community &amp; Content Engineering Lead at lakeFS · Formerly AI Community Lead, Iterative.ai · Technical Project Manager, Amazon</cite>
     </blockquote>
   </div>
 </section>
@@ -781,7 +786,7 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
         <figcaption class="plate">Remote first · Working globally</figcaption>
       </figure>
       <div class="about-body reveal">
-        <p>Over six years ago, I started building things before anyone asked for them: communities, machine learning solutions, platforms, and ecosystems. What started as side projects now serves a <strong>global audience across 80+ countries</strong>.</p>
+        <p>Over six years ago, I started building things before anyone asked for them: communities, machine learning solutions, platforms, and ecosystems. What started as side projects now serves a <strong>global audience across 120+ countries</strong>.</p>
         <p>At <strong>Iterative</strong> and <strong>DagsHub</strong>, I worked with distributed teams across Europe, North America and Asia, helping developers trust new tools, adopt new workflows, and build AI systems responsibly. At <strong>CBB Analytics</strong>, I turned raw basketball data into decisions for some of the biggest programs in US college sport. And at <strong>Data Community Africa</strong>, I went deep on something harder to measure: what happens when an entire continent of builders finally has a room of their own.</p>
         <p>The tension between what's technically possible and who actually gets access to it is what drives everything I do. If you're building something that needs to last, something technically sound, community-rooted, and built for the world as it actually is, that's the work I show up for.</p>
         <div class="toolbox">
@@ -943,7 +948,7 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
     <div class="quotes reveal">
       <blockquote class="quote-card">
         <p>"Few people I've worked with combine technical depth, strong execution, and clear communication as effectively as Gift. He's dependable, resilient, and approaches every challenge with curiosity and humility. What stands out most is his willingness to learn, embrace feedback, and continuously improve, qualities that make him not only an exceptional engineer but also an outstanding collaborator."</p>
-        <cite><b>Nick</b>Founder, CBB Analytics<span>Formerly Data Scientist, Golden State Warriors and New York Knicks</span></cite>
+        <cite><b>Nick</b>Founder, CBB Analytics<span>Formerly Senior Data Scientist, Golden State Warriors and New York Knicks</span></cite>
       </blockquote>
     </div>
     </div>
@@ -1024,7 +1029,7 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
       <p class="kicker">Writing</p>
       <div>
         <h2>Things I've written</h2>
-        <p class="lede">I've written articles, newsletters, and contributed to research papers across global technical machine learning and AI publications, from in-depth engineering guides to practical community building. That work has been read more than <strong>100,000 times across 120+ countries</strong>. Currently the Lead Author of a production-focused engineering reference on building and operating GenAI systems at scale, with a Tier-1 global technical publisher.</p>
+        <p class="lede">I've written articles, newsletters, and contributed to research papers across global technical machine learning and AI publications, from in-depth engineering guides to practical community building. That work has been read more than <strong>120,000 times across 120+ countries</strong>. Currently the Lead Author of a production-focused engineering reference on building and operating GenAI systems at scale, with a Tier-1 global technical publisher.</p>
       </div>
     </div>
 
@@ -1109,11 +1114,12 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
     <div class="section-head reveal">
       <p class="kicker">Speaking</p>
       <div>
-        <h2>On stage</h2>
-        <p class="lede">Keynotes, talks, and workshops at global conferences on data science, MLOps, developer relations, and community.</p>
+        <h2>On stage &amp; on air</h2>
+        <p class="lede">Keynotes, talks, and workshops at global conferences, plus podcast appearances and hosted interview series on data science, MLOps, developer relations, and community.</p>
       </div>
     </div>
 
+    <p class="sub-label reveal">On stage</p>
     <div class="talks reveal">
       <a class="talk" href="https://www.linkedin.com/posts/thepsf_pyconus-ai-python-activity-7450520987210760192-ev5X" target="_blank" rel="noopener">
         <span class="venue">PyCon US<small>United States</small></span>
@@ -1164,6 +1170,40 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
         <span class="venue">GDG DevFest<small>Ibadan, Nigeria</small></span>
         <span class="title">Responsible AI: the use of AI for positive impact and social good</span>
         <span class="role-tag">Panelist</span><span class="arr" aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <p class="sub-label reveal">On air</p>
+    <div class="talks reveal">
+      <a class="talk" href="https://www.thekeycuts.com/dear-analyst-106-democratizing-data-knowledge-and-community-building-in-africa-with-gift-ojeabulu/" target="_blank" rel="noopener">
+        <span class="venue">Dear Analyst<small>International · Spotify &amp; Apple Podcasts</small></span>
+        <span class="title">Democratising data knowledge and community building in Africa</span>
+        <span class="role-tag">Guest</span><span class="arr" aria-hidden="true">↗</span>
+      </a>
+      <a class="talk" href="https://open.spotify.com/episode/3xCpFkAR7Dfr4cBzjVkM5v" target="_blank" rel="noopener">
+        <span class="venue">Engati CX<small>International · Engatica interview series</small></span>
+        <span class="title">MLOps 101: why MLOps matters and the significance of open-source ML</span>
+        <span class="role-tag">Guest</span><span class="arr" aria-hidden="true">↗</span>
+      </a>
+      <a class="talk" href="https://open.spotify.com/episode/0NYIOaiuEg3GAj8RWi9NTm" target="_blank" rel="noopener">
+        <span class="venue">Datapodchat<small>Co-hosted with a Data Science Manager at Allianz, Indonesia</small></span>
+        <span class="title">Data engineering careers, with Luca Zanna, Azure Data Engineer Consultant</span>
+        <span class="role-tag">Co-host</span><span class="arr" aria-hidden="true">↗</span>
+      </a>
+      <a class="talk" href="https://open.spotify.com/episode/4ZTa8rS0J8bHKVhYe7kwLs" target="_blank" rel="noopener">
+        <span class="venue">Datapodchat<small>Co-hosted with a Data Science Manager at Allianz, Indonesia</small></span>
+        <span class="title">A structured data career leading to a job, with Matthew Blasa, Data Scientist at Home Depot</span>
+        <span class="role-tag">Co-host</span><span class="arr" aria-hidden="true">↗</span>
+      </a>
+      <a class="talk" href="https://open.spotify.com/episode/7stuMLvLzs2VmoDfqByzyo" target="_blank" rel="noopener">
+        <span class="venue">Datapodchat<small>Episode 3</small></span>
+        <span class="title">Machine learning interpretability, with Serg Masís, Lead Data Scientist and author</span>
+        <span class="role-tag">Host</span><span class="arr" aria-hidden="true">↗</span>
+      </a>
+      <a class="talk" href="https://youtu.be/up_bW3Fds90" target="_blank" rel="noopener">
+        <span class="venue">DevRel interview session<small>International Developer Relations platform</small></span>
+        <span class="title">Live interview session with industry guests</span>
+        <span class="role-tag">Co-host</span><span class="arr" aria-hidden="true">↗</span>
       </a>
     </div>
   </div>
@@ -1227,9 +1267,10 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
       <a class="press" href="https://techcabal.com/2023/06/07/entering-tech-data-community-africa/" target="_blank" rel="noopener"><b>TechCabal</b><small>Feature</small></a>
       <a class="press" href="https://techmoonshot.com/2024/09/26/techie-spotlight-meet-gift-ojeabulu-data-ai-ml-engineer/" target="_blank" rel="noopener"><b>Techmoonshot</b><small>Feature</small></a>
       <a class="press" href="https://technext24.com/2023/04/10/5-tech-influencers-for-tech-job/" target="_blank" rel="noopener"><b>Technext</b><small>Spotlight</small></a>
-      <a class="press" href="https://www.devnetwork.com/advisory-boards/ai-ml-advisory-board-ml-ai-engineering-technologies/" target="_blank" rel="noopener"><b>DevNetwork</b><small>AI/ML advisory board</small></a>
+      <a class="press" href="https://www.devnetwork.com/advisory-boards/ai-ml-advisory-board-ml-ai-engineering-technologies/" target="_blank" rel="noopener"><b>DevNetwork</b><small>AI Engineering Advisory Board</small></a>
       <a class="press" href="https://www.linkedin.com/posts/activity-7419706301938630656-M_DE" target="_blank" rel="noopener"><b>AWS</b><small>ML Community Builder</small></a>
       <a class="press" href="https://x.com/GiftOjeabulu_/status/1506654082022395908?s=20" target="_blank" rel="noopener"><b>Global AI Hub</b><small>Recognition</small></a>
+      <a class="press" href="https://youtu.be/MRZwIDjHewA" target="_blank" rel="noopener"><b>Africa Tech Radio</b><small>Radio guest</small></a>
       <a class="press" href="https://www.linkedin.com/posts/black-in-data_meet-gift-ojeabulu-a-visionary-data-activity-7256634267898638337-ZfFE" target="_blank" rel="noopener"><b>Black in AI</b><small>Community feature</small></a>
     </div>
   </div>
@@ -1248,19 +1289,21 @@ footer{background:var(--contact-bg);color:var(--contact-mut)}
 
     <div class="imp-stats reveal">
       <div class="imp-stat"><b class="num">80k+</b><span>People reached</span><em>Across products, content, and community</em></div>
-      <div class="imp-stat"><b class="num">100k+</b><span>Article reads</span><em>Technical writing read in 120+ countries</em></div>
+      <div class="imp-stat"><b class="num">120k+</b><span>Content reads</span><em>Articles, newsletters, research, and technical social content</em></div>
+      <div class="imp-stat"><b class="num">40k+</b><span>Social followers</span><em>Developers across data science, ML, analytics, and AI</em></div>
+      <div class="imp-stat"><b class="num">26k+</b><span>Newsletter subscribers</span><em>Data &amp; AI newsletter · 49.89% average open rate · 253k+ views in three years</em></div>
       <div class="imp-stat"><b class="num">50+</b><span>Talks &amp; workshops</span><em>PyCon US, PyData Berlin, SQLBits, and more</em></div>
-      <div class="imp-stat"><b class="num">30+</b><span>Events organised</span><em>Meetups, hackathons, and conferences</em></div>
-      <div class="imp-stat"><b class="num">80+</b><span>Countries reached</span><em>A genuinely global footprint</em></div>
-      <div class="imp-stat"><b class="num">5+</b><span>Media features</span><em>TechCabal, ThisDay, TechPoint Africa, and more</em></div>
+      <div class="imp-stat"><b class="num">30+</b><span>Events organised</span><em>Meetups, webinars, hackathons, and conferences</em></div>
+      <div class="imp-stat"><b class="num">120+</b><span>Countries reached</span><em>A genuinely global footprint</em></div>
+      <div class="imp-stat"><b class="num">5+</b><span>Media features</span><em>Print, podcasts, and radio, from TechCabal to Africa Tech Radio</em></div>
     </div>
 
     <div class="miles reveal">
-      <div class="mile"><span class="yr num">2019</span><p>Moved from software engineering into machine learning: completed an intensive AI bootcamp and won Best AI Research Poster. Wrote a first AI research paper on computer vision, and organised first tech events, from monthly meetups to in-person hackathons and a conference.</p></div>
+      <div class="mile"><span class="yr num">2019</span><p>Graduated with a B.Sc. in Computer Science, in the top 8% of the class. Moved from software engineering into machine learning: completed an intensive AI bootcamp and won Best AI Research Poster. Wrote a first AI research paper on computer vision, and organised first tech events, from monthly meetups to in-person hackathons and a conference.</p></div>
       <div class="mile"><span class="yr num">2020</span><p>Started building machine learning solutions and technical communities across Africa, before anyone asked. Began public speaking at tech conferences.</p></div>
-      <div class="mile"><span class="yr num">2021</span><p>Co-founded Data Community Africa and started publishing technical writing. Joined CBB Analytics as Data Scientist, modelling NCAA performance for Duke, Kentucky, Kansas, and North Carolina.</p></div>
+      <div class="mile"><span class="yr num">2021</span><p>Co-founded Data Community Africa. Accepted into global technical publications and started publishing. Landed a first international role, as a Data Scientist with a US company, working remotely.</p></div>
       <div class="mile"><span class="yr num">2022</span><p>A first international CFP acceptance, and a first international conference talk, delivered virtually. Held the first in-person DataFestAfrica conference and hackathon, and launched the MLOps Lagos meetup. Named an ML Thought Leader by Global AI Hub and an AWS ML Community Builder. Began facilitating open-source data science at Sustain Africa.</p></div>
-      <div class="mile"><span class="yr num">2023</span><p>Developer Advocate at Iterative across five open-source and SaaS products, growing the community by 4,000+ members. Spoke at a first international conference in person. Featured in TechCabal and Technext.</p></div>
+      <div class="mile"><span class="yr num">2023</span><p>Landed a first international Developer Advocate role with a US-based company, working remotely across five open-source and SaaS products and growing the developer community by 4,000+ members. Spoke at a first international conference in person. Featured in TechCabal and Technext.</p></div>
       <div class="mile"><span class="yr num">2024</span><p>Drove DataChain's Product Hunt launch to #8 Product of the Day. 350% LinkedIn growth for Iterative. Spoke at GDG DevFest Lagos and Ibadan.</p></div>
       <div class="mile"><span class="yr num">2025</span><p>Machine Learning Engineer at FastDoc. CFPs accepted on data engineering and on community building focused on measuring impact metrics. Received an all-expenses-paid invitation to an open-source AI conference in Minneapolis, United States, and led a Data Engineering study group.</p></div>
       <div class="mile"><span class="yr num">2026</span><p>CFPs accepted at PyCon US, PyCon DE &amp; PyData Berlin, SQLBits, and PyCon Lithuania with two sessions. Invited to TechEx Global London as lead panelist for two sessions on AI, robotics, and intelligent automation. Published the four-year Data Community Africa impact report spanning 40 African countries. Lead Author of a GenAI engineering reference with a Tier-1 global technical publisher. Featured in ThisDay and TechPoint Africa.</p></div>
